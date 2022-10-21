@@ -1,0 +1,28 @@
+.border{
+    background-image:url(https://auto5.vn/files/theanh/2021/09/16/2021-rolls-royce-ghost-3-15990-6718-5319-1599022530-114145.jpg);
+    /* background-size: cover;
+    background-origin: top right; */
+    /* background-attachment: ; */
+    /* background-image: linear-gradient(to right, red, blue); */
+    width: 500px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box;
+    box-shadow: 0 0 0 10px red;
+    /* border-top: 10px solid black;
+    border-bottom: 10px dashed pink;
+    border-left: 10px double blue;
+    border-right: 10px solid yellow; */
+    border: 30px dotted red ;
+    /* text-align: center;
+    text-decoration: none; */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    /* border-radius: 30px 0px  ; */
+    /* border-radius: 50px 50px 50px 50px;
+    padding: 50px ;
+    margin: 50px; */
+}

@@ -1,0 +1,15 @@
+.container{
+    width: 1000px;
+}
+.title{
+    border-bottom: 2px solid gray;
+}
+.content3{
+    height:300px;
+    width: 50%;
+    
+}
+
+.content2{
+    float: right;
+}

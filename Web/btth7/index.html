@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đạt phòng khách sạn</title>
+</head>
+<body>
+    <h1>Yêu cầu đặc biệt</h1>
+    <form action="">
+        <section>
+            <h3>chọn loại giường</h3>
+            <input type="radio" name="single" id="single" value="single">
+            <label for="single">1 giường king</label>
+            <input type="radio" name="single" id="double" value="double">
+            <label for="double">2 giường đơn</label>
+        </section>
+        <section>
+            <h4>yêu cầu đặc biệt</h4>
+            <input type="checkbox" name="[spe]" id="nosmoke" value="nosmoke">
+            <label for="nosmoke">phòng không hút thuốc</label>
+            <input type="checkbox" name="[spe]" id="high" value="high">
+            <label for="high">phòng ở tầng cao</label>
+        </section>
+        <section>
+            <h4>yêu cầu riêng của bạn</h4>
+            <textarea name="request" id="request" cols="30" rows="5" placeholder="nhập yêu cầu khác"></textarea>
+        </section>
+        <button type="submit" style="background-color: tomato;">thanh toán</button>
+    </form>
+</body>
+</html>

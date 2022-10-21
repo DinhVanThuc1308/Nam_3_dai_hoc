@@ -1,0 +1,12 @@
+.nav{
+    width: 600px;
+
+}
+.text{
+    position: absolute;
+    width: 600px;
+    top:100px;
+    opacity: 0.5;
+    color: #fff;
+
+}

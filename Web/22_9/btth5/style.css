@@ -1,0 +1,43 @@
+.nav{
+    width: 380px;
+    height: 400px;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    
+    
+    
+    
+    
+}
+.nav p1{
+    font-size: 20px;
+    height: 100%;
+    
+    color: red;
+    padding-top: 10px;
+    
+    
+    
+    
+}
+.subnav h1{
+    pointer-events: all;
+}
+.nav p {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.subnav{
+    border-bottom: 2px solid black;
+    margin: 30px 0px;
+    border-color: gray;
+}
+.nav1{
+    padding: 10px;
+}

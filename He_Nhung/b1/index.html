@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-weight: 100;
+}
+.table{
+    width: 500px;
+    height:100px;
+    border: solid 1px blue;
+}
+#usename{
+    border: solid 1px blue;
+}
+#date{
+    border: solid 1px blue;
+}
+#mssv{
+    border: solid 1px blue;
+    
+}
+.button{
+    border: solid 1px blue;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    height: 50px;
+}
+td{
+    border: solid 1px #000
+}
+/* table.table2, th {
+    margin:  auto;
+    border: 1px solid;
+  } */
+
+table.table2{
+    width: 100%;
+    border: 1px solid;
+    margin: 100px auto;
+    
+}
+.table2 td{
+    height: 20px;
+    border: 1px solid;
+}
+    
+
+</style>
+<body>
+    <!-- <form class="table">   -->
+        <table>
+            <tr>
+
+            
+            <tr>
+                <th>
+                    <label for="usename"> Tên đăng nhập: </label>
+                </th>
+                <th> <input type="text" name="usename" id="usename"></th>
+                <th rowspan="3"><button id="btn" class="button" >Đăng ký</button></th>
+            </tr>
+            
+            <tr>
+                <th>
+                    <label for="date"> Ngày sinh: </label>
+                </th>
+                <th> 
+                    <input type="datetime" name="date" id="date">
+                </th>
+                
+                
+            </tr>
+            
+            <tr>
+                <th>
+                    <label for="mssv"> Số hiệu sinh viên: </label>
+                </th>
+                <th><input type="text" name="mssv" id="mssv"></th>
+            </tr>
+            
+            <tr>
+                <th><label for="sex">Giới tính:</label>
+                    
+                </th>
+                <th class = "nav_input" colspan="2" style="display:flex; justify-content: space-between; "> 
+                    <input  type="radio" name="sex" class="sex" value="nam">
+                    <label for="sex"> Nam </label>
+                    <input type="radio" name="sex" class="sex" value = "nu">
+                    <label for="sex"> Nữ </label>
+                    <input type="radio" name="sex" class="sex" value = "other">
+                    <label for="sex"> Khác </label></th>
+                    
+                    
+                </tr>
+                
+            </table>
+        <!-- </form> -->
+        <table class="table2" >
+            
+            <tr style="background-color: blue; color: white;"" >
+                <th>Số hiệu sinh viên
+                    
+                </th>
+                <th> Họ Và Tên</th>
+                <th >Ngày sinh</th>
+                <th>Giới tính</th>
+                
+            </tr>
+            
+      
+        </table>
+<script>
+    const btn = document.querySelector('#btn');
+
+btn.addEventListener('click', () => {
+    let name = document.querySelector('#usename').value;
+    let dob = document.querySelector('#date').value;
+    let mssv = document.querySelector('#mssv').value;
+    let sex = document.querySelector('input[name="sex"]:checked').value;
+    
+    document.querySelector('#usename').value = ""
+    document.querySelector('#date').value = ""
+    document.querySelector('#mssv').value = ""
+
+    let table = document.querySelector('.table2')
+    
+    let row = document.createElement('tr')
+    row.innerHTML = `<td>${name}</td>
+    <td>${dob}</td>
+    <td>${mssv}</td>
+    <td>${sex}</td>`
+    table.appendChild(row)
+    console.log(row)
+}
+)
+
+</script>
+</body>
+</html>

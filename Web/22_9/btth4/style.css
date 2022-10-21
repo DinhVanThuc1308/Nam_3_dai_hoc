@@ -1,0 +1,22 @@
+.nav{
+    background-color: blue;
+    height: 400px;
+    width: 300px;
+    /* padding: 10px; */
+    padding: -90px;
+}
+.nav p img{
+    
+    width: 30px;
+    height: 30px;
+    
+
+}
+.nav p{
+    border-b
+    /* border: dashed 3px red; */
+    border-radius: 20px;
+    color: yellow;
+    background-color: green;
+    width: 280px;
+}

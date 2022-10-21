@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            /* box-sizing: border-box; */
+        }
+        .box1 {
+            width: 200px;
+            height: 480px;
+            position: relative;
+            z-index: 2;
+
+        }
+
+        .box2 {
+            width: 200px;
+            height: 220px;
+            background-color: #2E8B57;
+            border-radius: 0 0 50% 50%;
+            outline: solid 1px #2E8B57;
+            /* outline-offset: 10px; */
+            border: 5px solid transparent;
+            border-top: none;
+            background-clip: padding-box;
+            position: absolute;
+            top: 0;
+            left: 50px;
+        }
+
+        .left {
+            width: 50%;
+            float: left;
+        }
+
+        .right {
+            width: 50%;
+            float: right;
+
+        }
+
+        img {
+            margin: auto;
+            width: 295px;
+            height: 480px;
+            border: 5px solid #2E8B57;
+        }
+
+        .text1 {
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 20px 10px 0 10px;
+        }
+
+        .text2 {
+            color: white;
+            font-size: 30px;
+            font-weight: bold
+        }
+
+        .pd{
+            padding: 10px 5px 5px 5px;
+            margin: 0;
+        }
+
+        .ml30{
+            margin-left: 30px;
+        }
+
+        .mt10{
+            margin-top: 10px;
+        }
+
+        .fz18{
+            font-size: 18px;
+        }
+
+        .text3 {
+            color: white;
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        .link {
+            width: 140px;
+            height: 35px;
+            background-color: yellow;
+            color: green;
+            font-size: 20px;
+            line-height: 35px;
+            font-weight: bold;
+            border-radius: 20px;
+            border: 1px solid yellow;
+            position: absolute;
+            bottom: 45px;
+            left: 30px;
+            text-align: center;
+            text-decoration: none;
+        }
+        .clear{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <img src="https://bom.so/gcHGOc">
+        <div class="box2">
+            <p class="text1">THỰC PHẨM ĐÔNG LẠNH</p>
+            <div class="left mt10">
+                <p class="pd text2">ĐỒNG <span class="ml30">GIÁ</span></p>
+            </div>
+            <div class="right mt10">
+                <p class="pd text3">50 <span class="fz18">K</span></ơ>
+            </div>
+            <div class="clear"></div>
+            <a href="" class="link">MUA NGAY</a>
+        </div>
+    </div>
+</body>
+</html>
