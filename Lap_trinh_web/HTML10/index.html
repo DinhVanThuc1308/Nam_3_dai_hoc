@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML10</title>
+</head>
+<body>
+    <style>
+        .container {
+            width: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            height: 100vh;
+            
+        }
+        .container > a {
+            font-weight: 1000;
+            font-size: 30px;
+        }
+        tr td{
+            border: 1px solid blue;
+            color: blue;
+            background-color: yellow;
+            height: 30px;
+        }
+        h1{
+            color: blue;
+        }
+        tr td input {
+            font-size:20px
+        }
+
+    </style>
+    <form action="">
+        <div class="container" >
+            <h1> Đăng ký du lịch</h1>
+
+            <table style="border: 1px solid blue">
+                <tr>
+                    <td>Họ và tên:</td>
+                    <td><input style="width: 80%;" type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td><input type="text" name="address" id="address"></td>
+                </tr>
+                <tr>
+                    <td>số điện thoại</td>
+                    <td><input style="width: 40%;" type="text" name="phone" id="phone"></td>
+                </tr>
+                <tr>
+                    <td>Khách Việt Nam</td>
+                    <td><input type="checkbox" name="vietnam" id="vietnam"></td>
+                </tr>
+                <tr>
+                    <td>Phương tiện</td>
+                    <td>
+                        <input type="radio" name="car" id="car">Xe máy
+                        <input type="radio" name="car" id="car">Xe đạp
+                    </td>
+                </tr>
+                <tr >
+
+                    <td  colspan="2" style="width:50%; text-align:center; " >
+                        <div class="nav">
+                            Người lớn
+                            <input type="number" name="adult" id="adult">
+
+                            Trẻ em
+                            <input type="number" name="child" id="child">
+                    </td> 
+                </div>
+
+                    
+                </tr>
+                <tr>
+                    <td >
+                        Ghi chú thêm
+                    </td>
+                    <td >
+                        <textarea name="note" id="note"  style="width:80%"></textarea>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center;">
+                        <input type="submit" value="Đồng ý">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center; color:orange">bạn đã đăng ký thành công</td>
+                </tr>
+
+
+
+
+            </table>
+
+        </div>
+    </form>
+    
+</body>
+</html>
