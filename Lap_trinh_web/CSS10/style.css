@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    background-color: brown;
+    border: 10px solid green;
+    display: flex;
+    justify-content: center;
+
+}
+.title{
+    width: 80%;
+    height: 50%;
+    background-color: green;
+    color: white;
+    display: flex;
+    padding: 10px;
+
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top: none ;
+    justify-content: center;
+    outline-offset: 10px ;
+    outline: 1px solid green;
+    
+}
+.title h1{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}

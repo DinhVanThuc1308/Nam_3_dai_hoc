@@ -1,0 +1,40 @@
+*{
+    /* reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:rgb(34,55,113);
+    color: #fff; 
+    display: flex;
+    width: 100%;
+    font-size:20px;
+    justify-content: space-between;
+    padding: 10px 120px;
+    
+}
+.title_right {
+    list-style: none;
+    display: flex;
+    float: right;
+    padding-right: 10px;
+}
+.title_right li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.title_right li a {
+    color: #fff;
+    text-decoration: none;
+}
+.gioi_thieu{
+    position:relative;
+}
+.nav_gt{
+    position:absolute;
+    top: 100%;
+    background-color:rgb(34,55,113);
+    width: auto;
+}
+

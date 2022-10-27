@@ -26,7 +26,7 @@
 
     border-bottom: 1px dashed gray;
     padding: 10px;
-    display:block
+    /* display:block */
 }
 .content1 a{
     text-decoration: none;
@@ -34,12 +34,7 @@
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
-.content2{
-    /* float: right; */
-    width: 50%;
-    /* flex-wrap: wrap; */
-    
-}
+
 .content2 a{
     text-decoration: none;
     color: black;
