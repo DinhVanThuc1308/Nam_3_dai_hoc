@@ -1,0 +1,67 @@
+*{
+    /* reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:rgb(34,55,113);
+    color: #fff; 
+    display: flex;
+    width: 100%;
+    font-size:20px;
+    justify-content: space-between;
+    padding: 0px 120px;
+}
+.title_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title_right {
+    list-style: none;
+    display: flex;
+    float: right;
+    padding-right: 10px;
+}
+.title_right li {
+    display: inline-block;
+    padding: 10px 10px;
+    
+}
+.title_right li a {
+    color: #fff;
+    text-decoration: none;
+}
+.gioi_thieu{
+    background-color:rgb(34,55,113);
+    position:relative;
+}
+.nav_gt{
+    position:absolute;
+    top: 100%;
+    background-color:rgb(34,55,113);
+    width: auto;
+    width: 300px;
+    top:34px;
+    display: none;
+    
+}
+.nav_gt li {
+    width: 100;
+    padding: 20px;
+    /* height: 50px; */
+}
+.gioi_thieu:hover .nav_gt{
+    display: block;
+    top: 100%;
+    left: 0;
+
+}
+.gioi_thieu:hover {
+    background-color:rgb(125, 131, 147);
+}
+.title_right .gioi_thieu .nav_gt li:hover{
+    background-color:rgb(107, 137, 220);
+    width: 100%;
+}

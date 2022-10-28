@@ -1,0 +1,65 @@
+*{
+    transition: all 0.4s;
+}
+
+main .box_main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+main .box_main .title {
+    padding-top: 300px;
+    margin: auto;
+    width: 500px;
+    border-radius: 15px;
+    
+}
+main .box_main .title .box_image{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+main .box_main .title .box_image img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 15px;
+}
+main .box_main .title .box_image:hover .box_image2{
+    transform: scale(1,1);
+}
+main .box_main .title h1{
+    text-align: center;
+}
+main .box_main .title p{
+    text-align: center;
+    font-size: 50px;
+}
+.box_image2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    transform: scale(0,1);
+    transform-origin: left;
+}
+.box_image2 img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: center;
+}
+.btn{
+    position: absolute;
+    padding: 20px 50px;
+    background-color: pink;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+}

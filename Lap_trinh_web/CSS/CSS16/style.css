@@ -1,0 +1,50 @@
+.login{
+    width: 80%;
+    margin: 0 auto;
+    padding:100px;
+}
+.login .login_form{
+    width: 100%;
+    text-align: center;
+}
+
+.login .login_form input{
+
+    padding: 30px 40px;
+    font-size: 60px;
+    width: 550px;
+    border: none;
+}
+.btn2{
+    padding: 20px 50px;
+    background-color: pink;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* focus  input*/
+.login .login_form input:focus{
+    outline: none;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+.login .login_form input:focus .username span{
+    color: blue;
+    display: block;
+}
+.username {
+    position: relative;
+}
+.username span {
+    
+    position: absolute;
+    top: -50px;
+    left: 850px;
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+    display: none;
+}

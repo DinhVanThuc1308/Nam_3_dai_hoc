@@ -1,0 +1,30 @@
+main{
+    width: 100%;
+    margin: auto;
+}
+.container_main{
+    width: 80%;
+    margin: auto;
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+main .content .image_box {
+    width: 700px;
+    border: 5px solid rgb(209, 16, 16);
+    overflow: hidden;
+
+}
+main .content .image_box img{
+    width: 100%;
+    transition: 0.3s;
+}
+
+main .content .image_box img:hover{
+    transform: scale(1,1.2);
+    cursor: pointer;
+}
+
