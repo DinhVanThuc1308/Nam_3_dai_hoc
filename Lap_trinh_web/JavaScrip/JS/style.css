@@ -1,0 +1,58 @@
+*{
+    /* reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    font-size: 30px;
+}
+.mybox{
+    font-size: 30px;
+    width: 500px;
+    height: 500px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.calc{
+    width: 390px;
+    border: 5px solid #000;
+}
+.calc .phim .btn{
+    width: 22%;
+    padding: 30px;
+    font-size: 30px;
+}
+.calc .phim .btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.calc .phim .clear{
+    width: 22%;
+    padding: 30px;
+    font-size: 30px;
+}
+.calc input{
+    width: 100%;
+    padding: 20px;
+}
+.calc .phim .equal{
+    width: 22%;
+    padding: 30px;
+    font-size: 30px;
+}
+.Clock{
+    margin-top: 50px;
+    padding: 30px;
+    width: 390px;
+    border: 5px solid #000;
+}

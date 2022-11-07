@@ -1,14 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>JavaScrip</title>
-</head>
-<body>
-    <!-- <button onclick="ptb1()">click</button> -->
-    <button onclick="sumAll()">sum</button>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <button onclick="ptb1()">click</button> -->
+      <!-- input a -->
+      <form action="">
+        <input type="text" id="a" placeholder="a" />
+        <!-- input b -->
+        <input type="text" id="b" placeholder="b" />
+
+        <!-- <input type="button" onclick="ptb1()" value="Giai Phuong trinh" /> -->
+        <button onclick="ptb1()" type="button" value="giai phuong trinh">giai phuong trinh</button>
+      </form>
+      <div class="mybox"></div>
+    </div>
+    <div class="calc" > 
+        <input type="text" id="result">
+        <div class="phim">
+            <input class="btn" type="button" value="1">1</input>
+            <input class="btn" type="button" value="2">2</input>
+            <input class="btn" type="button"  value="3">3</input>
+            <input class="btn" type="button" value="+">+</input>
+            <input class="btn" type="button" value="4">4</input>
+            <input class="btn" type="button" value="5">5</input>
+            <input class="btn" type="button" value="6">6</input>
+            <input class="btn" type="button" value="-">-</input>
+            <input class="btn" type="button" value="7">7</input>
+            <input class="btn" type="button" value="8">8</input>
+            <input class="btn" type="button" value="9">9</input>
+            <input class="btn" type="button" value="*">*</input>
+            <input class="clear" type="button" value="C">c</input>
+            <input class="btn" type="button" value="0">0</input>
+            <input class="equal" type="button" value="=">=</input>
+            <input class="btn" type="button" value="/">/</input>
+
+        </div>
+      </div>
+      <div class="Clock">
+        <div class="hours">00 Giờ</div>
+        <div class="minutes">00 Phút</div>
+        <div class="seconds">00 Giây</div>
+    </div>
     <script src="./function.js"></script>
-</body>
+
+  </body>
 </html>
