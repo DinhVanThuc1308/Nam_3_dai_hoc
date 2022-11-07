@@ -12,7 +12,7 @@ header{
     left: 0;
 }
 
-.big-title{
+.Header{
     width: 100%;
     font-size: 40px;
     text-transform: uppercase;
@@ -21,7 +21,7 @@ header{
     padding: 10px 50px;
 }
 
-.nav{
+.list{
     width: 100%;
     background-color: rgb(19, 95, 63);
     padding: 0px 20px;
@@ -29,7 +29,7 @@ header{
     display: flex;
 }
 
-.nav li{
+.list li{
     padding: 10px 20px;
     border-right: 1px solid rgba(15, 156, 145, 0.616);
     text-transform: uppercase;
@@ -49,12 +49,12 @@ a{
     width: 100%;
     padding: 0 30px;
 }
-.main1{
+.main_box1{
     width:100%;
     display: flex;
     justify-content: space-between;
 }
-.main1-left{
+.main_box1-left{
     width: 70%;
 }
 .news-hot{
@@ -101,13 +101,13 @@ a{
     margin-left: 10px;
 }
 
-.new-cold{
+.main_box2{
     margin-top: 30px;
     width: 100%;
     list-style: none;
 }
 
-.new-cold li{
+.main_box2 li{
     width: 100%;
     display: flex;
     border: 1px solid rgba(102, 93, 93, 0.507);
@@ -115,48 +115,48 @@ a{
     margin-bottom: 20px;
 }
 
-.new-cold li img{
+.main_box2 li img{
     width: 30%;
     height: 150px;
 }
-.new-cold li .title-new{
+.main_box2 li .title-new{
     margin-left: 20px;
     padding: 20px 0;
 }
-.new-cold li .title-new span{
+.main_box2 li .title-new span{
     color: rgb(80, 73, 73);
     font-size: 15px;
 }
-.new-cold li .title-new p{
+.main_box2 li .title-new p{
     font-weight: 600;
     font-size: 20px;
     padding-top: 20px;
 }
-.main1-right{
+.main_box1-right{
     width: 27%;
 }
-.tham-do{
+.question{
     width: 100%;
 }
-.tham-do {
+.question {
     background-color: rgba(161, 161, 161, 0.24);
     padding: 10px;
     border-top: 2px solid rgb(19, 95, 63);
 }
-.title-slide {
+.Header_question {
     text-transform: uppercase;
     font-size: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
     color: rgb(19, 95, 63);
 }
-.tham-do form{
+.question form{
     background-color: white;
     padding: 10px;
     padding-bottom: 20px;
     font-size: 18px;
 }
-.tham-do form p{
+.question form p{
     padding-bottom: 10px;
 }
 .input{

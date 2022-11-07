@@ -7,4 +7,44 @@
 header{
     width: 100vw;
     background-color: rgb(15,15,15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .header_left ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+header .header_left li i{
+   color: white;
+   font-size: 2rem;
+}
+header .header_left li img{
+    display: inline-block;
+    width: 8rem;
+}
+header .header_left li{
+    display: inline-block;
+    margin-left: 2rem;
+    color: white;
+    font-size: 3rem;   
+}
+.header_right{
+    color: white;
+}
+.header_right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+}
+.header_right li{
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+.mid_header{
+    
 }
