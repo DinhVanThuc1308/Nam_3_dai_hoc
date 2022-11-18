@@ -1,197 +1,309 @@
 *{
-    padding: 0;
+    /* reset */
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
-/* header */
-header{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
+header .container .logo{
+    padding: 0 70px;
 }
 
-.Header{
-    width: 100%;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: rgb(19, 95, 63);
-    background-color: lavender;
-    padding: 10px 50px;
+header .container .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    padding: 0 50px;
 }
-
-.list{
-    width: 100%;
-    background-color: rgb(19, 95, 63);
-    padding: 0px 20px;
-    list-style: none;
+header .container .menu .menu_left ul{
     display: flex;
 }
+header .container .menu .menu_left ul li{
+    list-style: none;
+    margin-right: 20px;
+    border-right: 1px solid #fff;
+    padding: 5px 20px;
 
-.list li{
-    padding: 10px 20px;
-    border-right: 1px solid rgba(15, 156, 145, 0.616);
-    text-transform: uppercase;
 }
 
-a{
+header .container .menu .menu_left ul li a{
     text-decoration: none;
-    color: white;
-    font-size: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
 }
+header .container .menu .search{
+    width: 500px;
+    display: flex;
+    justify-content: content;
+    align-items: center;
+}
+
+header .container .menu .search input{
+
+    width: 500px;
+    /* padding: 5px; */
+    font-size: 20px;
+    
+} 
+
+header .container .menu .search button{
+    /* padding: 5px; */
+    font-size: 22px;
+    background-color: #fff;
+    border: none;
+} 
 
 /* end header */
 
-/* main */
-.main{
-    margin-top: 125px;
-    width: 100%;
-    padding: 0 30px;
+/* start main */
+main{
+    background-color: #f5f5f5;
+    padding: 0 50px ; 
 }
-.main_box1{
-    width:100%;
+main .container{
+    margin-top: 10px ;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    
+    
 }
-.main_box1-left{
+main .container .content_hotnews{
     width: 70%;
+    background-color: #fff;
+    display: flex;
+    /* align-items: center; */
 }
-.news-hot{
+main .container .content_hotnews .hotnew_left{
+    width: 60%;
+    background-color: #fff;
+    margin-right:20px ;
+}
+main .container .content_hotnews .hotnew_left img{
+    width: 100%;
+}
+
+main .container .content_hotnews .hotnew_left a{
+    text-decoration: none;
+    color: #000;
+}
+
+main .container .content_hotnews .hotnew_right{
+    width: 40%;
+    
+}
+main .header_container ul{
+    display: flex;
+    margin-left: 70px;
+}
+main .header_container ul li{
+    border: 3px solid #fff;
+    list-style: none;
+    padding:0  30px; 
+    /* width: 50%; */
+    background-color: #ccc;
+    /* margin-right: 20px; */
+}
+
+main .header_container ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main .container .listnew{
+    width: 30%;
+
+    background-color: rgb(236,249,255);
+}
+
+main .container form .radio{
+    padding: 10px ;
+}
+main .container form {
+    font-size: 20px;
+}
+main .container form .radio input{
+    font-size: 20px;
+}
+
+/* end box1 */
+/* box 2 */
+main .mid_news {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+main .h1_mid{
+    border-left: 5px solid red;
+}
+main .mid_news .content_mid_news {
+    width: 20%;
+    margin-right: 20px;
+}
+
+main .mid_news .content_mid_news img{
+    width: 100%;
+}
+main .mid_news .content_mid_news a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* end box 2 */
+/* box3 */
+main .mid2{
+    width: 100%;
+    background-color:gray;
+    
+
+}
+main .mid2 .content_mid2{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
-.top-new{
-    width:53%;
+main .mid2 .content_mid2 .nav_content{
+    width: 25%;
+    padding: 10px;
 }
-.news{
-    width: 43%;
-    height: 90px;
-}
-.top-new img{
+main .mid2 .content_mid2 .nav_content img{
     width: 100%;
+
 }
-.top-new h2 a{
-    color: black;
+
+main .mid2 .content_mid2 .nav_content a{
+    text-decoration: none;
+    color: #000;
+}
+main .mid2 .header_mid2 span{
     font-size: 20px;
+    font-weight: 100;
+    /* color: #fff; */
 }
-.top-new h2{
-    padding-bottom: 6px;
+main .mid2 .header_mid2 span a{
+    text-decoration: none;
+    color: #000;
 }
-.top-new span{
-    color: rgb(43, 38, 38);
-    font-size: 15px;
-}
-.nav-news{
-    width: 100%;
-    list-style: none;
-    margin-top: -10px;
-}
-.nav-news li{
+main .last_content{
     display: flex;
-    /* border bottom style dot */
-    padding: 10px 0;
-    border-bottom: 1px dotted rgb(65, 59, 59);
+    padding-top:30px
 }
-.nav-news li img{
-    width: 40%;
-}
-.nav-news li span{
-    margin-left: 10px;
-}
-
-.main_box2{
-    margin-top: 30px;
+main .box1{
     width: 100%;
-    list-style: none;
+    /* display: flex; */
+    /* padding: 20px; */
 }
-
-.main_box2 li{
+main .box4{
+    width: 100%;
+    /* display: flex; */
+    
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+main .box1 .last_content_left{
     width: 100%;
     display: flex;
-    border: 1px solid rgba(102, 93, 93, 0.507);
-    background-color: rgba(202, 186, 186, 0.336);
-    margin-bottom: 20px;
 }
 
-.main_box2 li img{
+main .box1 .last_content_left .image{
     width: 30%;
-    height: 150px;
 }
-.main_box2 li .title-new{
-    margin-left: 20px;
-    padding: 20px 0;
-}
-.main_box2 li .title-new span{
-    color: rgb(80, 73, 73);
-    font-size: 15px;
-}
-.main_box2 li .title-new p{
-    font-weight: 600;
-    font-size: 20px;
-    padding-top: 20px;
-}
-.main_box1-right{
-    width: 27%;
-}
-.question{
+main .box1 .last_content_left .image img{
     width: 100%;
 }
-.question {
-    background-color: rgba(161, 161, 161, 0.24);
+
+main .box1 .last_content_left .content_last{
+    width: 70%;
     padding: 10px;
-    border-top: 2px solid rgb(19, 95, 63);
 }
-.Header_question {
-    text-transform: uppercase;
-    font-size: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    color: rgb(19, 95, 63);
+main .box1 .last_content_left .content_last h3 a{
+    text-decoration: none;
+    color: #000;
 }
-.question form{
-    background-color: white;
-    padding: 10px;
-    padding-bottom: 20px;
-    font-size: 18px;
-}
-.question form p{
-    padding-bottom: 10px;
-}
-.input{
-    margin-bottom: 10px;
-}
-.btn-submit{
+main .last_right{
     width: 100%;
-    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+main .last_right .header_last_right span{
+    padding-right: 10px;
+}
+main .last_right {
+    width: 100%;
+}
+
+main .last_right .header_last_right span a{
+    text-decoration: none;
+    color: #000;
+}
+main .last_right .header_last_right1 {
+    width: 70%;
     display: flex;
-    justify-content: space-around;
-}
-.btn{
+    justify-content: space-between;
     padding: 10px;
-    background-color: rgb(101, 102, 102);
-    color: white;
-    width: 100px;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
 }
-.btn2{
-    background-color: red;
-}
-.lien-ket{
+
+
+main .last_right .header_last_right1 img{
     width: 100%;
-    background-color: rgba(161, 161, 161, 0.24);
-    padding: 10px;
-    border-top: 2px solid rgb(19, 95, 63);
-    margin-top: 50px;
 }
-.lien-ket ul{
-    list-style:circle;
-    padding-left: 40px;
+main .last_right .header_last_right1 a{
+    text-decoration: none;
+    color: #000;
 }
-.lien-ket ul li{
-    padding: 10px 0;
-    font-size: 17px;
+.nav_content_end {
+    width: 100%;
+    display: flex;
+
 }
+.nav_content_end a{
+    text-decoration: none;
+    color: #000;
+}
+.nav_content_end img{ 
+   
+    width: 30%;
+}
+footer {
+    
+    padding:  20px;
+}
+
+footer .footer .footer1{
+    width: 100%;
+    /* background-color: #000; */
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+footer .footer .footer1  .content_footer{
+    width:13%;
+    background-color:#ccc;
+    padding: 5px 0px;
+    
+    
+}
+footer .footer .footer2{
+    width: 100%;
+    /* background-color: #000; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+footer .footer  .content_footer2{
+    width:13%;
+    background-color:#ccc;
+    padding: 5px 10px; 
+}
+
+
+
+
+
